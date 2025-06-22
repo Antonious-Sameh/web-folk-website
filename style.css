@@ -1,0 +1,422 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+/* NavBar */
+.navbar{
+    width: 100%;
+    height: 50px;
+    background-color: #360836;
+}
+.navbar ul{
+    text-align: center;
+    list-style: none;
+    line-height: 50px;
+}
+.navbar ul li{
+    display: inline-block;
+    
+}
+.navbar ul li a{
+    color: aliceblue;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+/* web folk */
+.web_folt{
+    position: relative;
+    text-align: center;
+    color: greenyellow;
+    width: 100%;
+    height: 900px;
+    background-size: cover;
+    background-image: url("Images/cover.png");
+}
+.folk{
+    padding-top: 10%;
+}
+.web_folt .folk h1{
+    margin: 0;
+    padding: 0;
+    font-size: 70px;
+}
+.folk p{
+    letter-spacing: 15px;
+}
+.dream{
+    font-size: 25px;
+    padding-top: 80px;
+}
+.work{
+    position: absolute;
+    bottom: 0;
+    left: 43%;
+    width: 300px;
+    padding: 15px;
+    font-size: 20px;
+    background-color: orangered;
+}
+.work::after{
+    content: "";
+    border-top:20px solid orangered;
+    border-right:20px solid transparent ;
+    border-left:20px solid transparent ;
+    position: relative;
+    top: 55px;
+    left: -70px;
+}
+
+/* Images */
+.images{
+    width: 100%;
+}
+.img1{
+    background-image: url("Images/image_1.jpg");
+    width: 25%;
+    height: 252px;
+    float: left;
+}
+.img1:hover{
+    opacity: 0.5;
+}
+.img2{
+    background-image: url("Images/image_2.jpg");
+    width: 25%;
+    height: 252px;
+    float: left;
+}
+.img2:hover{
+    opacity: 0.5;
+}.img3{
+    background-image: url("Images/image_3.jpg");
+    width: 25%;
+    height: 252px;
+    float: left;
+}
+.img3:hover{
+    opacity: 0.5;
+}.img4{
+    background-image: url("Images/image_4.jpg");
+    width: 25%;
+    height: 252px;
+    float: left;
+}
+.img4:hover{
+    opacity: 0.5;
+}
+
+.img5{
+    background-image: url("Images/image_5.jpg");
+    width: 25%;
+    height: 252px;
+    float: left;
+}
+.img5:hover{
+    opacity: 0.5;
+}
+.img6{
+    background-image: url("Images/image_6.jpg");
+    width: 25%;
+    height: 252px;
+    float: left;
+}
+.img6:hover{
+    opacity: 0.5;
+}.img7{
+    background-image: url("Images/image_7.jpg");
+    width: 25%;
+    height: 252px;
+    float: left;
+}
+.img7:hover{
+    opacity: 0.5;
+}.img8{
+    background-image: url("Images/image_8.jpg");
+    width: 25%;
+    height: 252px;
+    float: left;
+}
+.img8:hover{
+    opacity: 0.5;
+}
+
+.img9{
+    background-image: url("Images/image_9.jpg");
+    width: 25%;
+    height: 252px;
+    float: left;
+}
+.img9:hover{
+    opacity: 0.5;
+}
+.img10{
+    background-image: url("Images/image_10.jpg");
+    width: 25%;
+    height: 252px;
+    float: left;
+}
+.img10:hover{
+    opacity: 0.5;
+}.img11{
+    background-image: url("Images/image_11.jpg");
+    width: 25%;
+    height: 252px;
+    float: left;
+}
+.img11:hover{
+    opacity: 0.5;
+}.img12{
+    background-image: url("Images/image_12.jpg");
+    width: 25%;
+    height: 252px;
+    float: left;
+}
+.img12:hover{
+    opacity: 0.5;
+}
+.clear{
+    clear: both;
+}
+.meet{
+    width:100%;
+    height: auto;
+    position: relative;
+    text-align: center;
+    background-color: #f5f5f5;
+    
+}
+.head{
+    position: absolute;
+    top: 0;
+    background-color: #ff0048;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    font-size: 20px;
+}
+.head::after{
+    content: "";
+    border-top:20px solid #ff0048;
+    border-right:20px solid transparent ;
+    border-left:20px solid transparent ;
+    position: relative;
+    top: 55px;
+    left: -70px;
+}
+.meet h2{
+    padding-top: 80px;
+    color: #ff0048;
+    font-size: 35px;
+    letter-spacing: 6px;
+}
+
+.img_card1 h3{
+    letter-spacing: 3px;
+    font-size: 28px;
+    color: #ff0048;
+    margin-top: 4px;
+    margin-bottom: 0;
+}
+.img_card1 p{
+    margin-top: 0;
+}
+.meet button{
+    width: 200px;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.meet button:hover{
+    background-color:slategray;
+}
+.allcard{
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+}
+
+/* End Home Page */
+.endhome{
+    background-image: url("Images/Cover_2.jpg") ;
+    width: 100%;
+    height: auto;
+    background-size: contain;
+    color: white;
+    text-align: center;
+}
+.content1, .content2, .content3, .content4{
+    width:20%;
+    display: inline-block;
+    margin: 30px;
+
+}
+.endhome h3{
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+.endhome button{
+    width: 200px;
+    background-color: white;
+    color: black;
+    padding: 15px;
+    margin-top: 70px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.endhome button:hover{
+    background-color:slategray;
+}
+.bol span{
+    margin-top: 10%;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: #f5f5f5;
+}
+.bol span:hover{
+    background-color: #360836;
+}
+
+/* Footer */
+.footer{
+    background-color: #f5f5f5;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    font-size: 20px;
+}
+
+/****************************** Contact Page *************/
+
+.contact{
+    width: 100%;
+    height: 800px;
+    background-image: url("Images/coverPage2.PNG");
+    background-size: cover;
+    text-align: center;
+    margin: 0;
+    padding: 5%;
+}
+.contact h2{
+    margin: 0;
+    font-size: 70px;
+    font-style: italic;
+    color: #df15a5;
+}
+.contact p{
+    font-size: 25px;
+}
+
+.contact .form{
+    
+    width: 500px;
+    height: 400px;
+    margin: auto;
+}
+.contact .form h2{
+    color: #df15a5;
+    font-size: 30px;
+}
+.contact .form input[type=text], textarea{
+    display: block;
+    width: 100%;
+    height: 35px;
+    border: 0;
+    margin-bottom: 10px;
+    background-color: #ff0048;
+    padding-left: 10px;
+    color: white;
+}
+textarea{
+    height: 200px;
+}
+.contact .form input[type=submit]{
+    float: right;
+    cursor:pointer;
+    border: 0;
+    background-color: white;
+    border-radius: 15px;
+    padding: 5px;
+    width: 60px;
+}
+.contact .form input[type=submit]:hover{
+    background-color: #ff0048;
+}
+input::placeholder {
+    color: white; 
+}
+textarea::placeholder {
+    color: white; /* لون الـ placeholder */
+}
+
+.book{
+    text-align: center;
+    padding: 3%;
+    width: 100%;
+    height: auto;
+    background-color: azure;
+}
+.book h2{
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #ff0048;
+    font-size: 35px;
+}
+.book p{
+    margin: 0;
+}
+.book h3{
+    margin-top: 40px;
+    margin-bottom: 0;
+    color: #ff0048;
+    font-size: 35px;
+}
+.book .mediafont{
+    margin-top: 35px;
+}
+
+/******************** Book Online *******************/
+.contact .contserv{
+    width: 900px;
+    height: 400px;
+    background-color: white;
+    margin: auto;
+    padding-top: 5%;
+}
+.contact .contserv .left{
+    float: left;
+    width: 45%;
+    height: 252px;
+    margin-left: 5%;
+}
+.contact .contserv .left img{
+    width: 100%;
+}
+.contact .contserv .right{
+    float: right;
+    width: 45%;
+    height: 304px;
+    margin-right: 5%;
+    background-color: #eee;
+}
+.contact .contserv .right button{
+    padding: 15px 20px;
+    background-color: black;
+    color: white;
+    border: 0;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.contact .contserv .right button:hover{
+    background-color:dimgrey;
+}
